@@ -6,7 +6,7 @@ import { FaGoogle } from 'react-icons/fa'
 function IconGroup() {
   return (
     <div className='flex flex-row gap-1'>
-        <FaInstagram/>
+        <FaInstagram />
         <FaTwitter/>
         <FaGoogle/>
     </div>
