@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'fade-in': 'fade-in 2s ease-in-out',
+        'pulse-in':'pulse-animator 3s ease-out'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

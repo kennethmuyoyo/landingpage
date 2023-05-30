@@ -11,12 +11,25 @@
   
   @keyframes fade-in {
     0% {
-      opacity: 0;
+      opacity: .2;
     }
     100% {
       opacity: 1;
     }
   }
+  @keyframes pulse-animator {
+    50% {
+        opacity: .9;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .animate-pulse {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) ease-in;
+  }
+
+  
   
   @keyframes bounce-top {
     0% {
