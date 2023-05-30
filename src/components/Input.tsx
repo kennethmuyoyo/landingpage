@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Input() {
+function Input({label}:{label:string}) {
   return (
     <div className="relative mb-2">
     <label
       htmlFor="name"
       className="absolute -top-2 left-2 inline-block bg-white px-1 text-xs font-medium text-gray-900"
     >
-      Name
+      {label}
     </label>
     <input
       type="text"
