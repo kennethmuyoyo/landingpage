@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../assets/LeagueSpartan-Regular.ttf') format('truetype');
+  /* Replace the font file name and format if necessary */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('../assets/LeagueSpartan-Bold.ttf') format('truetype');
+  /* Replace the font file name and format if necessary */
+  font-weight: bold;
+  font-style: normal;
+}
+

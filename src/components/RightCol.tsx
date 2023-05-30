@@ -1,11 +1,21 @@
 import React from 'react'
+import ai_avatar from '../assets/ai_avatar.png'
+import Image from 'next/image'
 
 function RightCol() {
   return (
    
-    <div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
-        <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="devices.svg"/>
-    </div>
+   
+    <div className=" lg:flex  pb-14">
+    <Image
+    className="object-cover "
+    src={ai_avatar}
+    width={430}
+    height={480}
+    alt=""
+    />
+</div>
+    
   )
 }
 
