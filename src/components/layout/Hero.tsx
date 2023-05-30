@@ -4,7 +4,7 @@ import RightCol from '../RightCol'
 
 function Hero({onClick}:{onClick:()=>void}) {
   return (
-    <div className=" py-2 md:p-6 px-12  mx-12 flex  flex-col md:flex-row items-center lg:justify-between lg:p-16">
+    <div className=" px-12 mx-12 flex flex-col  items-center md:px-2 md:mx-6 lg:justify-between lg:flex-row lg:p-2 lg:px-20">
         <LeftCol onClick={onClick}/>
         <RightCol/>
     </div>

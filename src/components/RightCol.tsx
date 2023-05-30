@@ -1,16 +1,16 @@
 import React from 'react'
-import ai_avatar from '../assets/ai_avatar.png'
+import ai_avatar_pic from '../assets/ai_avatar_pic.png'
 import Image from 'next/image'
 
 function RightCol() {
   return (
    
    
-    <div className=" lg:flex  pb-14">
+    <div className=" lg:flex bg-transparent md:justify-end">
     <Image
-    className="object-cover "
-    src={ai_avatar}
-    width={430}
+    className=" lg:h-[530px] bg-transparent w-[550px] shadow-gray-900 drop-shadow-4xl animate-pulse-in"
+    src={ai_avatar_pic}
+    width={500}
     height={480}
     alt=""
     />
