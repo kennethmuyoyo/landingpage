@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ai_avatar_pic from '../assets/ai_avatar_pic.png';
+import avatar_ from '../assets/avatar.png';
 import Image from 'next/image';
 
 
@@ -25,7 +25,7 @@ function RightCol() {
       ) : (
         <Image
           className="lg:h-[530px] bg-transparent w-[550px] shadow-gray-900 drop-shadow-4xl"
-          src={ai_avatar_pic}
+          src={avatar_}
           width={500}
           height={480}
           alt=""
