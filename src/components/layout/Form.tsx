@@ -20,7 +20,7 @@ function Form() {
     <Input label='Email'/>
     </div> 
     
-    <Button name='join waiting list' onClick={onButtonClick}/>
+    <Button name='Join the waiting list' onClick={onButtonClick}/>
 </form>
 
   )

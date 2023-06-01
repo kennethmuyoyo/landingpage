@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import avatar_ from '../assets/avatar.png';
 import Image from 'next/image';
-
-
-
+import AI_SHA from '../assets/AI_SHA.png'; // Change this to the path of your PNG file
 
 function RightCol() {
   const [isLoading, setIsLoading] = useState(true);
@@ -17,19 +14,22 @@ function RightCol() {
   }, []);
 
   return (
-    <div className="lg:flex bg-transparent md:justify-end">
+    <div >
       {isLoading ? (
-        <div >
-         
+        <div>
+          {/* Loading state */}
         </div>
       ) : (
-        <Image
-          className="lg:h-[530px] bg-transparent w-[550px] shadow-gray-900 drop-shadow-4xl"
-          src={avatar_}
-          width={500}
-          height={480}
-          alt=""
-        />
+          <div className="max-h-full">
+            <Image
+              src={AI_SHA}
+              sizes="(max-width: 380px) 100vw, 380px"
+              width={350}
+              height={350}
+              layout="responsive"
+              alt=""
+            />
+          </div>
       )}
     </div>
   );

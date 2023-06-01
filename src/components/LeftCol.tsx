@@ -23,10 +23,9 @@ function LeftCol({onClick}:{onClick:()=>void}) {
         <p>Let's embark on this journey of faith together and become better Muslims.</p> 
         <p>In Sha Allah!</p>
       </motion.div>
-      <Button name='Join waiting list' onClick={onClick} />
+      <Button name='Join the waiting list' onClick={onClick} />
     </motion.div>
   )
 }
 
 export default LeftCol;
-
