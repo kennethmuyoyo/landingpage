@@ -14,19 +14,19 @@ function RightCol() {
   }, []);
 
   return (
-    <div >
+    <div className="lg:flex bg-transparent md:justify-end md:w-1/2">
       {isLoading ? (
         <div>
           {/* Loading state */}
         </div>
       ) : (
-          <div className="max-h-full">
+        <div className="transform perspective-[500px] rotate-y-20 rotate-x-10">
             <Image
+              className='w-full h-full'
               src={AI_SHA}
-              sizes="(max-width: 380px) 100vw, 380px"
-              width={350}
-              height={350}
-              layout="responsive"
+              sizes="430px"
+              width={430}
+              height={430}
               alt=""
             />
           </div>

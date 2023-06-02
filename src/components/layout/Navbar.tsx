@@ -4,17 +4,16 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    	<div className="w-full container p-8 pl-20 bg-gray-50">
-			
-		<div className="w-full flex items-center justify-between">
-			<a className=" font-league-spartan md:flex items-center hidden text-black no-underline hover:no-underline font-bold text-xl lg:text-2xl"  href="#"> 
-				 <Image width={40} height={40} src={Logooo} alt='alt'/> Your virtual Muslim Companion
-			</a>
-		
-		</div>
-
-	</div>
+    <div className="w-full container pl-2 md:pl-20 bg-gray-50">
+      <div className="w-full flex items-center justify-between">
+        <a className="font-league-spartan flex items-center text-black no-underline hover:no-underline font-bold text-xl lg:text-2xl"  href="#"> 
+          <Image width={100} height={100} src={Logooo} alt='Logo'/> 
+          <span className="hidden md:inline">Your Virtual Muslim Companion</span>
+        </a>
+      </div>
+    </div>
   )
 }
 
-export default Navbar
+export default Navbar;
+
