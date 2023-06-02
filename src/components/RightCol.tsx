@@ -24,9 +24,9 @@ function RightCol() {
             <Image
               className='w-full h-full'
               src={AI_SHA}
-              sizes="430px"
-              width={430}
-              height={430}
+              sizes="500px"
+              width={500}
+              height={500}
               alt=""
             />
           </div>
