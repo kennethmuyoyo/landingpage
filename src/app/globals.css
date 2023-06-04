@@ -39,4 +39,37 @@ body {
   font-weight: bold;
   font-style: normal;
 }
+.app__header-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%; 
+  width: 100%; 
+  z-index: -1; 
+}
 
+.overlay_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2; 
+} 
+.effect {
+  perspective: 1000px;
+}
+
+.effect img {
+  transform: rotateY(20deg) rotateX(10deg);
+  transition: transform 0.5s;
+}
+
+.effect img:hover {
+  transform: rotateY(0) rotateX(0);
+}
