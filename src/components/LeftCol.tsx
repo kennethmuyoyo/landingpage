@@ -20,7 +20,7 @@ function LeftCol({onClick}:{onClick:()=>void}) {
           Muslim Companion<span style={{color: 'black'}}> is almost here...</span>
         </h1>
       </motion.div>
-      <motion.div {...headContentAnimation} className="leading-normal font-league-spartan lg:text-xl mb-4 mt-8 text-center lg:text-justify slide-in-bottom-subtitle font-normal text-gray-600 text-base space-y-4">
+      <motion.div {...headContentAnimation} className="leading-normal font-league-spartan lg:text-xl mb-4 mt-8 text-center lg:text-justify slide-in-bottom-subtitle font-normal text-black text-base space-y-4">
         <p>Discover <span style={{color: 'green'}}>Brother AI.DAM</span> and <span style={{color: 'green'}}>Sister AI.SHA</span> they are here to help you. </p> 
         <p> Whether you seek urgent answers, need guidance on permissible actions in Islam, or simply require a friendly chat, we are here for you.</p>
         <MobileRightCol /> {/* The image is placed independently outside the paragraph content */}
